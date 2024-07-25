@@ -2,7 +2,7 @@
 
 
 
-Official codebase for the paper Preference Prototype-Aware Learning for Universal Cross-Domain Recommendation.
+Official codebase for the paper: Preference Prototype-Aware Learning for Universal Cross-Domain Recommendation.
 
 
 
