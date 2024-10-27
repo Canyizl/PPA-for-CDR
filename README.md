@@ -43,3 +43,17 @@ CUDA_VISIBLE_DEVICES=1   python -u train_rec.py  --static_sample --cuda --domain
 # multi-user-intra
 CUDA_VISIBLE_DEVICES=1 python -u train_rec.py --static_sample --cuda --domains d1_d2_d3 --task multi-user-intra --aggregator Transformer > Tppa_multi_user_intra.log 2>&1&
 ```
+
+## Citation
+
+If you find this work useful for your research, please cite our paper:
+
+```
+@inproceedings{zhang2024ppa,
+  title={Preference Prototype-Aware Learning for Universal Cross-Domain Recommendation},
+  author={Zhang, Yuxi and Zhang, Ji and Xu, Feiyang and Chen, Lvying and Li, Bohan and Guo, Lei and Yin, Hongzhi},
+  booktitle={ACM International Conference on Information and Knowledge Management},
+  pages={3290--3299},
+  year={2024}
+}
+```
